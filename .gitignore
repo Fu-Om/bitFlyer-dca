@@ -1,0 +1,5 @@
+.env
+settings.py
+.idea
+__pycache__
+log.csv
