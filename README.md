@@ -2,7 +2,7 @@
 
 ### Description
 
-An automatic DCA script for bitbank. Change the parameters to fit your needs.
+An automatic DCA script for bitFlyer. Change the parameters to fit your needs.
 
 A `log.csv` file will be created.
 
