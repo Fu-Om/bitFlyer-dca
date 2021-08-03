@@ -43,7 +43,7 @@ e.g. When the current price is 4,502,000 order will be at 4500000.
 The current price is 45070000 order will be at 45050000.
 When divisible by unit, the order will be 2,000 less than the current price.
 """
-dca_amount = 25000  # jpy to buy for each day
+dca_amount = 25000  # jpy to buy for each purchase
 log_file_path = pathlib.Path.home() / 'Devel/bitFlyer-dca/log.csv'  # log file path
 ```
 
