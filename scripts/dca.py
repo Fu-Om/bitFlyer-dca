@@ -115,6 +115,12 @@ def get_balance(api_key, api_secret):
     balance = prv_api.get_api_call(path)
     return balance
 
+def get_trade_history(api_key, api_secret, product_code='BTC_JPY', count=1000, child_order_state='COMPLETED'):
+    path = f'/v1/me/getchildorders?product_code={product_code}&count={count}&child_order_state={child_order_state}'
+    prv_api = BitFlyerPrvAPI(format(api_key), format(api_secret), API_ENDPOINT)
+    history = prv_api.get_api_call(path)
+    return history
+
 
 def main():
     # res = get_balance(BITFLYER_API_KEY, BITFLYER_API_SECRET)
