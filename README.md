@@ -1,4 +1,4 @@
-# DCA scripts for 
+# DCA scripts for bitFlyer
 
 ### Description
 
